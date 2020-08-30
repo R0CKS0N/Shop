@@ -1,0 +1,23 @@
+py -m pip install django==2.2
+
+
+django-admin startproject rock .
+
+
+
+
+python manage.py makemigrations
+
+
+python manage.py migrate
+
+
+py manage.py createsuperuser
+
+
+pipenv shell
+
+
+py -m venv env
+
+.\env\Scripts\activate
